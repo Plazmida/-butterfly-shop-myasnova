@@ -1,3 +1,49 @@
+.footer {
+  background-color: $color-dark;
+}
+
 .footer-inner {
   @include inner;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 0;
+
+}
+
+.logo {
+  @include logo;
+
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer-phone {
+  font-size: 28px;
+  line-height: 38px;
+  color: $color-light;
+  text-decoration: none;
+  margin-right: 45px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15px;
 }

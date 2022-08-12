@@ -14,11 +14,11 @@
       <div class="header-wrap">
         <a href="index.html" class="logo">Butterfly</a>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">Отзывы</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">FAQ</a></li>
+          <ul class="menu-item">
+            <li class="item"><a href="#" class="item-text">Каталог</a></li>
+            <li class="item"><a href="#" class="item-text">Отзывы</a></li>
+            <li class="item"><a href="#" class="item-text">Контакты</a></li>
+            <li class="item"><a href="#" class="item-text">FAQ</a></li>
           </ul>
         </nav>
       </div>
@@ -77,16 +77,16 @@
             встрече он снимет мерки и поможет обределиться с тканью.</p>
 
           <form class="form" action="#" method="POST">
-            <div class="form_field">
-              <label for="name">Ваше имя</label>
-              <input id="name" name="name" type="text">
+            <div class="form-field">
+              <label for="name" class="form-label">Ваше имя</label>
+              <input id="name" name="name" type="text" class="form-input">
+            </div>
+            <div class="form-field">
+              <label for="phone" class="form-label">Телефон</label>
+              <input id="phone" name="phone" type="phone" class="form-input">
             </div>
             <div class="form_field">
-              <label for="phone">Телефон</label>
-              <input id="phone" name="phone" type="phone">
-            </div>
-            <div class="form_field">
-              <button class="btn-order">Заказать</button>
+              <button class="btn btn-order" type="submit">Заказать</button>
             </div>
           </form>
 
@@ -97,18 +97,18 @@
 
   <footer class="footer">
     <div class="footer-inner">
+      <a href="index.html" class="logo">Butterfly</a>
       <div class="footer-wrap">
-        <a href="index.html" class="logo">Butterfly</a>
         <a href="tel:+78128008080" class="footer-phone">+7 812 800-80-80</a>
         <ul class="social">
           <li class="social-item">
-            <a href="#" class="social-link"></a>
+            <a href="#" title="instagram" class="social-link" style="background-image: url('media/insta-link.svg');"></a>
           </li>
           <li class="social-item">
-            <a href="#" class="social-link"></a>
+            <a href="#" title="facebook" class="social-link" style="background-image: url('media/fb-link.svg');"></a>
           </li>
           <li class="social-item">
-            <a href="#" class="social-link"></a>
+            <a href="#" title="telegram" class="social-link" style="background-image: url('media/tg-link.svg');"></a>
           </li>
         </ul>
       </div>
