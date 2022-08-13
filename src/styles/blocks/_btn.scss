@@ -1,16 +1,20 @@
 .btn {
   display: inline-block;
-  padding: 30px 69px;
+  width: 497px;
+  padding: 30px 0 31px;
   font-size: 42px;
   line-height: 57px;
+  text-align: center;
   text-decoration: none;
   color: #fff;
   background-color: $color-red;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 .btn-order {
+  font-family: $font;
   font-size: 28px;
   line-height: 34px;
   padding: 35px 145px;
