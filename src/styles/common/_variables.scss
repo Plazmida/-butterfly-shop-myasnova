@@ -11,3 +11,9 @@ $color-light: #fff;
 // indents
 
 // breakpoints
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
+
+$mobile-max: $tablet - 1;
+$tablet-max: $desktop - 1;

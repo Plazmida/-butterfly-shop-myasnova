@@ -1,6 +1,7 @@
 @mixin inner {
-  width: 1278px;
+  max-width: 1278px;
   margin: 0 auto;
+  padding: 0 15px;
   border: 1px solid red;
 }
 
@@ -10,6 +11,17 @@
   font-weight: 600;
   font-size: 42px;
   line-height: 57px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
 }
 
 @mixin subtitle {

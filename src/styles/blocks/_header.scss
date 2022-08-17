@@ -1,6 +1,21 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
   background-color: $color-dark;
+  padding: 16px 0;
+
+  @media (max-width: $tablet-max) {
+    padding: 20px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 16px 0;
+  }
 }
+
 
 .header-inner {
   @include inner;
@@ -10,11 +25,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16 0;
+
 }
 
 .logo {
   @include logo;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 .menu-item {
