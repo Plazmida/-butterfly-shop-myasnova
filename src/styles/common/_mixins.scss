@@ -31,5 +31,10 @@
   color: $color-dark;
   text-align: center;
 
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 82px;
+  }
+
 }
 

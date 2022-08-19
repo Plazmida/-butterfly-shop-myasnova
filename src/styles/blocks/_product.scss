@@ -1,6 +1,9 @@
 .product {
   padding: 130px 0;
   text-align: center;
+  @media (max-width: $tablet-max) {
+    padding: 120px 0;
+  }
 
 }
 
@@ -14,6 +17,10 @@
   justify-content: space-between;
   list-style: none;
   padding: 100px 0 120px;
+
+  @media (max-width: $tablet-max) {
+    // justify-content: space-around;
+  }
 
 
 .product-item {

@@ -8,7 +8,7 @@
   padding: 16px 0;
 
   @media (max-width: $tablet-max) {
-    padding: 20px 0;
+    padding: 0;
   }
 
   @media (max-width: $mobile-max) {
@@ -31,15 +31,7 @@
 .logo {
   @include logo;
 
-  @media (max-width: $tablet-max) {
-    font-size: 36px;
-    line-height: 49px;
-  }
 
-  @media (max-width: $mobile-max) {
-    font-size: 24px;
-    line-height: 28px;
-  }
 }
 
 .menu-item {

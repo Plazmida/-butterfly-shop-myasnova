@@ -7,6 +7,14 @@
   background-image: url(/media/promo-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (max-width: $tablet-max) {
+    padding: 180px 0 190px;
+    background-image: url(/media/promo-img-tablet.jpg);
+    // background-position: center;
+    background-size: contain;
+
+  }
 }
 
 .promo-wrap {
@@ -22,4 +30,9 @@
   font-size: 72px;
   line-height: 98px;
   margin-bottom: 100px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 54px;
+    line-height: 74px;
+  }
 }
