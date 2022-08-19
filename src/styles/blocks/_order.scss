@@ -1,6 +1,10 @@
 .order {
   padding: 130px 0;
-  background-color: rgba(51, 51, 51, .1)
+  background-color: rgba(51, 51, 51, .1);
+
+  @media (max-width: $tablet-max) {
+    padding: 120px 0;
+  }
 
 }
 .order-inner {
@@ -18,5 +22,9 @@
   color: $color-dark;
   text-align: center;
   padding: 40px 82px 90px;
+
+  @media (max-width: $tablet-max) {
+    padding: 40px 10px 90px;
+  }
 }
 

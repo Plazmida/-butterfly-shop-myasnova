@@ -19,4 +19,11 @@
   font-size: 28px;
   line-height: 34px;
   padding: 35px 145px;
+
+  @media (max-width: $tablet-max) {
+    width: 748px;
+    margin-top: 40px;
+  }
+
+
 }

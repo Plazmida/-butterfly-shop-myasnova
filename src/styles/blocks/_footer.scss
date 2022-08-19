@@ -9,6 +9,10 @@
   align-items: center;
   padding: 31px 0;
 
+  @media (max-width: $tablet-max) {
+    padding: 35px 10px;
+
+  }
 }
 
 .logo {

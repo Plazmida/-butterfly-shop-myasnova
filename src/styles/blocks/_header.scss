@@ -9,6 +9,7 @@
 
   @media (max-width: $tablet-max) {
     padding: 0;
+
   }
 
   @media (max-width: $mobile-max) {
@@ -19,6 +20,10 @@
 
 .header-inner {
   @include inner;
+  @media (max-width: $tablet-max) {
+    padding: 0 10px;
+
+  }
 }
 
 .header-wrap {
