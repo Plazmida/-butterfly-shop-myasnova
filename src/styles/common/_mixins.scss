@@ -1,7 +1,7 @@
 @mixin inner {
-  max-width: 1278px;
+  max-width: 1278px + 20px;
   margin: 0 auto;
-  // padding: 0 15px;
+  padding: 0 10px;
   border: 1px solid red;
 }
 

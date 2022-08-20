@@ -22,21 +22,19 @@
 
   @media (max-width: $tablet-max) {
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
-  }
+    // justify-content: flex-start;
+    }
 }
 
 
 .product-item {
   position: relative;
-  margin: 0 10px;
 
-  // @media (max-width: $tablet-max) {
-  //   flex-basis: 50%;
-  //   margin: 0;
 
-  // }
+  @media (max-width: $tablet-max) {
+    width: calc(1/2*100% - 20px);
+    margin: 10px;
+  }
 }
 
 .product-img {
@@ -56,5 +54,6 @@
   line-height: 33px;
   color: #fff;
   background-color: rgba($color-dark, .4);
+
 
 }
