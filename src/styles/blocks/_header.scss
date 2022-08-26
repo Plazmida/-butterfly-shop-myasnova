@@ -39,6 +39,12 @@
 
 }
 
+.menu {
+  @media (max-width: $mobile-max) {
+    display: none;
+  }
+}
+
 .menu-item {
   display: flex;
   list-style: none;
@@ -62,4 +68,12 @@
   line-height: 24px;
   text-transform: uppercase;
   color: $color-light;
+}
+
+.burger {
+  display: none;
+
+  @media (max-width: $mobile-max) {
+    display:block;
+  }
 }

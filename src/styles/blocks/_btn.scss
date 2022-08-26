@@ -1,7 +1,6 @@
 .btn {
   display: inline-block;
-  width: 497px;
-  padding: 23px 0 24px;
+  padding: 23px 69px 24px;
   font-weight: 400;
   font-size: 42px;
   line-height: 57px;
@@ -12,7 +11,23 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
+
+  @media (max-width: $mobile-max) {
+    padding: 20px 14px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
 }
+
+.btn-product {
+  padding: 23px 122px 24px;
+  @media (max-width: $mobile-max) {
+    padding: 20px 14px;
+
+  }
+}
+
 
 .btn-order {
   font-family: $font;
@@ -21,9 +36,12 @@
   padding: 35px 145px;
 
   @media (max-width: $tablet-max) {
-    width: 748px;
+    width: 100%;
     margin-top: 40px;
-  }
 
+  }
+  @media (max-width: $mobile-max) {
+
+  }
 
 }

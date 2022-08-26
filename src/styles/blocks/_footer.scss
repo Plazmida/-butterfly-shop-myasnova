@@ -13,6 +13,13 @@
     padding: 35px 10px;
 
   }
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+    // text-align: center;
+
+  }
+
 }
 
 .logo {
@@ -25,6 +32,11 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: $mobile-max) {
+    display: block;
+
+  }
+
 }
 
 .footer-phone {
@@ -32,13 +44,24 @@
   line-height: 38px;
   color: $color-light;
   text-decoration: none;
-  margin-right: 45px;
+  padding-right: 45px;
+
+  @media (max-width: $mobile-max) {
+    padding: 0;
+      text-align: center;
+
+  }
 }
 
 .social {
   display: flex;
   justify-content: space-between;
   list-style: none;
+
+  @media (max-width: $mobile-max) {
+    padding-top: 15px;
+    justify-content: center;
+  }
 
 }
 
